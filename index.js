@@ -1,6 +1,8 @@
-import AllowNotifications from "./Components/AllowNotifications.vue";
-import DocumentButton from "./Components/DocumentButton.vue";
-import VerifyEmail from "./Components/VerifyEmail.vue";
-import printDoc from "./Plugins/printDoc";
 
-export default {AllowNotifications, DocumentButton, VerifyEmail, printDoc}
+import AllowNotifications from "./src/Components/AllowNotifications.vue";
+import DocumentButton from "./src/Components/DocumentButton.vue";
+import VerifyEmail from "./src/Components/VerifyEmail.vue";
+import printDoc from "./src/Plugins/printDoc";
+
+module.exports = {AllowNotifications, DocumentButton, VerifyEmail, printDoc};
+export default {AllowNotifications, DocumentButton, VerifyEmail, printDoc};
